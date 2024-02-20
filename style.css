@@ -1,0 +1,97 @@
+.main{
+
+    border: 2px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+.flex-items{
+    width: 400px;
+    margin: 10px;
+    padding: 8px;
+    text-align: justify;
+    background-color: aquamarine;
+
+}
+.main2{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.main3{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.main4{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.main5{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.flex3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.flex4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.flex6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flex7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.flex8{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: space-between;
+}
+.flex9{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: space-around;
+}
+.flex10{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
