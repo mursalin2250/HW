@@ -68,30 +68,35 @@
 .flex6{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    height: 50px;
+    flex-direction: row;
     align-items: flex-start;
 }
 .flex7{
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
 }
 .flex8{
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: space-between;
 }
 .flex9{
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: space-around;
 }
 .flex10{
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
